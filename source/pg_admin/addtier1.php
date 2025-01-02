@@ -182,7 +182,7 @@
         <?php
             $n = 1;
 
-            $stmt_fdb = $new_conn->prepare("select 38id, 38title, 38desc, 38participant, 38datestart, 38dateend from $table_name");
+            $stmt_fdb = $new_conn->prepare("select 38id, 38title, 38desc, 38participant, 38datestart, 38dateend from $table_name order by 38datestart desc");
             $stmt_fdb->execute();
             $result_fdb = $stmt_fdb->get_result();
             while($myrow_fdb = $result_fdb->fetch_assoc())
