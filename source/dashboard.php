@@ -111,7 +111,7 @@
         <?php
         
             //all project listing
-            $queryB = "select 38id, 38title from eg_tier1 $appendSQL";
+            $queryB = "select 38id, 38title from eg_tier1 $appendSQL order by 38datestart desc";
             $resultB = mysqli_query($GLOBALS["conn"],$queryB);
             while ($myrowB=mysqli_fetch_array($resultB))
             {
