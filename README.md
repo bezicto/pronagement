@@ -11,3 +11,5 @@ Up and running guide:
 2. Move source directory to your document root
 3. Make database connection in config.php
 4. Done
+
+Screenshot: https://github.com/user-attachments/assets/5c5154a3-230e-4caf-9050-3207b20a4d36
